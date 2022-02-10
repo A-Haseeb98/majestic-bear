@@ -1,0 +1,151 @@
+.top_navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_container{
+    display: flex;
+}
+.right_container > button{
+    display: flex;
+    background-image: linear-gradient(45deg, #f7c050 0%, #FF7E36 100%);
+    padding: 5px 20px 5px 20px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 50px 50px 50px 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;;
+    line-height: 1;
+    transition: transform .2s
+}
+.right_container > button > span{
+    font-size: 32px;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.right_container > span{
+    font-size: 25px;
+    color: #f7c050;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: transform .2s
+}
+.right_container > span:hover{
+    color: #FF7E36;
+}
+.right_container > button:hover{
+    transform: scale(1.01);
+
+}
+.logo_container img{
+    width: 200px;
+}
+
+.drawer_container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    
+}
+.menu_section_mobile{
+   margin-top: 70px;
+    list-style-type: none;
+    padding-left: 0px;
+    width: 300px;
+    color: #f7c050;
+}
+.menu_section_mobile li{
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+    /* padding: 15px 35px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 17px;
+    cursor: pointer;
+}
+li a, li a:hover, li a:focus, li a:active {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.close_btn{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 25px;
+    color: #7A7A7A;
+    cursor: pointer;
+}
+
+.discord_{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+.right_container > button{
+    display: none;
+}
+.discord_{
+    display: block;
+    font-size: 28px !important;
+}
+.right_container > span{
+
+    margin-left: 10px;
+}
+
+.logo_container img{
+    width: 120px;
+
+}
+
+.drawer_container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: black;
+    /* height: 100vh; */
+    
+}
+.menu_section_mobile{
+   margin-top: 40px;
+    list-style-type: none;
+    padding-left: 0px;
+    width: 200px;
+    color: #f7c050;
+}
+.menu_section_mobile li{
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+    /* padding: 15px 35px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+}
+

@@ -1,0 +1,130 @@
+.cover_container{
+    height: 670px;
+    margin-top: 60px;
+    background-color: black;
+    text-align: center;
+    animation-name: fadeInUp;
+    animation-duration: 1.25s;
+    margin-bottom: 150px;
+}
+.image_wrapper{
+    width: 47%;
+    aspect-ratio: auto 650 / 650;
+    margin-left: 4px;
+}
+.image_wrapper img{
+    width: 100%;
+}
+.cover_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1110px;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+.main_heading{
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #F7C050;
+}
+
+.para_{
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.content_{
+    margin-top: -80px;}
+.cover_container button{
+    margin-bottom: 25px;
+}
+.arrow{
+    color: #f8f8f8;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    z-index: 2 ;
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+.arrow:hover {
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+
+span a, span a:hover, span a:focus, span     a:active {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(10px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(10px); }
+}
+
+
+@media screen and (max-width: 768px) {
+
+.cover_container{
+    margin-bottom: 00px;
+    width: 100%;
+    margin-top: 40px;
+    height: fit-content;
+    margin-bottom: 45px;
+
+}
+.image_wrapper{
+    width:90%;
+    aspect-ratio: auto 650 / 650;
+    
+}
+
+.image_wrapper img{
+    width: 100%;
+    margin-left: 0px;
+
+}
+.cover_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    bottom:20px;
+}
+.main_heading{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.para_{
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+
+.arrow{
+   display: none;
+}
+}

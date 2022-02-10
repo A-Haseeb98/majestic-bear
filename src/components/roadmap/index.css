@@ -1,0 +1,112 @@
+.roadmap_container{
+  margin-top: 120px;
+  margin-bottom: 50px;
+
+}
+.roadmap_container .sub_container{
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+
+}
+.section_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+}
+.roadmap_text{
+    text-align: left;
+    margin-bottom: 50px;
+}
+.left_box{
+    flex: 0.25;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+.doted_{
+    width: 100%;
+    height: 310%;
+    background: linear-gradient(90deg, #F7C050 50%, transparent 50%), linear-gradient(90deg, #F7C050 50%, transparent 50%), linear-gradient(0deg, #F7C050 50%, transparent 50%), linear-gradient(0deg, #F7C050 50%, transparent 50%);
+    background-repeat:  repeat-y;
+    background-size: 0, 0 , 1px 50px, 0;
+    background-position:  0px 0px, 200px 100px, 0px 100px, 200px 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 11;
+    padding: 10px;
+    animation: border-dance 10s infinite linear;
+    z-index: -11 !important;
+}
+
+  @keyframes border-dance {
+    100% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+    }
+    0% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+    }
+  }
+
+.left_box img{
+    width: 50%;
+}
+.roadmap_num{
+    margin-top: -90px;
+    color: #FF7E36;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0px;
+    font-size: 34px;
+}
+
+.right_section{
+    flex: 0.75;
+}
+
+.roadmap_b_line{
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap_container{
+    margin-top: 200px;
+    margin-bottom: 50px;
+  
+  }
+  .doted_{
+   display: none;
+}
+.right_section{
+  flex: 1;
+  z-index: 222222222;
+}
+
+.section_wrapper{
+  position: relative;
+  margin-bottom: 30px;
+}
+.left_box{
+  position: absolute;
+  
+  background-color: #F7C050;
+}
+.left_box img{
+  width: 90px;
+  display: inline;
+  margin-top: -70px;
+  margin-left: -10px;
+}
+.roadmap_num{
+  margin-left: -10px;
+  margin-top: -65px;
+}
+.roadmap_b_line{
+  margin-top: 0px;
+}
+
+}

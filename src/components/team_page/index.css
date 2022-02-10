@@ -1,0 +1,23 @@
+.peter_text{
+    text-align: left !important;
+}
+.men_sub{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+.artist_container2{
+    margin-bottom: 400px !important;
+
+}
+
+@media screen and (max-width: 768px) {
+    .men_sub{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .artist_container2{
+    margin-bottom: 1300px !important;
+
+    }
+}

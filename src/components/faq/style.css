@@ -1,0 +1,125 @@
+.faq_container{
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding: 0px 100px 0px 100px;
+    background-color: black;
+    text-align: center;
+}
+
+
+  .faq_header{
+      display: flex;
+      color: #F7C050;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-style: italic;
+      line-height: 26px;
+      letter-spacing: 3px; 
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+    }
+  .faq_header h3 {
+    font-size: 20px !important;
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+  
+
+.faq_header button{
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+    color: #FF7E36;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-right: 20px ;
+}
+
+ .faq_header:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 1px;
+  background-color: #FF7E36;
+  top: 37px;
+}
+.card{
+    color: #f8f8f8;
+    background-color: black !important;
+  }
+.card-body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    font-style: italic;
+    padding-left: 25px !important;
+  }
+ 
+  @media screen and (max-width: 768px) {
+    .faq_container{
+      margin-top: 50px;
+      height: fit-content;
+      padding: 10px;
+      margin-bottom: 30px;
+
+
+  }
+  .faq_container h1{
+    margin-bottom: 30px;
+  }
+    .faq_header{
+        align-items: center;
+        font-family: 'Audiowide', sans-serif;
+        padding: 15px 0;
+        margin: 0;
+        text-align: left;
+      }
+    .faq_header button{
+      height: 30px !important;
+      width: 30px !important;
+    }
+    .card{
+      width: calc(100% + 50px);
+      
+      padding: 0 !important;
+      margin: 0 !important;
+      margin-left: -20px !important;
+
+ }
+ 
+
+ .faq_header:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 27px;
+  }
+
+
+ .card-header{
+   padding: 0% !important;
+ }
+    .card-body{
+      font-size: 15px;
+      padding: 0 !important;
+      margin: 0 !important;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+    .faq_header h3 {
+      font-size: 20px !important;
+      padding-right: 30px !important;
+    }
+    
+  }

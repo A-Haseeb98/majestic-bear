@@ -1,0 +1,105 @@
+.footer_container{
+    margin: auto;
+}
+
+
+.last_section{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.last_section img{
+    width: 300px;
+    aspect-ratio: auto 300 / 105;
+}
+.last_section p{
+    color: #bdbdbd;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.footer_icons_container{
+    /* margin-top: 40px; */
+}
+.footer_icons_container span {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block; 
+    width: 80px;
+    height: 80px;
+    line-height: 65px;  
+    border-radius: 50%;
+    border: 6px solid rgba(255,255,255,.075);
+    text-align: center;
+    font-size: 30px;
+    color: #666;
+    transition: all .3s ease;
+    margin-bottom: 40px;
+}
+
+.footer_icons_container span:hover {
+    border-color: transparent;
+    border-bottom-color: #f7c050;
+    border-radius: 0;
+    color: #f7c050;
+
+}
+
+@media screen and (max-width: 768px) {
+   
+    .footer_container{
+        padding: 0px;
+        padding-bottom: 10px
+    }
+       
+    .last_section{
+        width: 100%;
+        margin-bottom: -05px;
+    }
+    
+    .last_section img{
+        height: auto;
+        width: 280px;
+        margin-bottom: 5px;
+    }
+    .last_section p{
+        color: #bdbdbd;
+        font-size: 13px;
+        line-height: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .footer_icons_container{
+        margin-top: 0px;
+    }
+    .footer_icons_container span {
+        line-height: 35px;
+        font-size: 27px;
+        padding: 0 8px;
+    }
+    .footer_icons_container span {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        display: inline-block; 
+        width: 80px;
+        height: 80px;
+        line-height: 65px;  
+        border-radius: 50%;
+        border: 6px solid rgba(255,255,255,.075);
+        text-align: center;
+        font-size: 30px;
+        color: #666;
+        transition: all .3s ease;
+        margin-bottom: 40px;
+    }
+
+  }
