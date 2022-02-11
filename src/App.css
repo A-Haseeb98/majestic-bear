@@ -83,7 +83,7 @@
   background-color: aqua;
   background: linear-gradient(90deg, #F7C050 50%, transparent 50%), linear-gradient(90deg, #F7C050 50%, transparent 50%), linear-gradient(0deg, #F7C050 50%, transparent 50%), linear-gradient(0deg, #F7C050 50%, transparent 50%);
   background-repeat: repeat-x;
-  background-size: 50px 1px;
+  background-size: 50px 1px, 0,0,0;
   padding: 10px;
   animation: border-dance 10s infinite linear;
   position: absolute;
