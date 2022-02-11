@@ -11,6 +11,10 @@
         height: fit-content;
      
      }
+     .artist_sub{
+        display: flex;
+        flex-direction: column-reverse;
+     }
 }
 
  
