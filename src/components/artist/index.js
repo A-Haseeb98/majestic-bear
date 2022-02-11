@@ -23,7 +23,7 @@ function Artist() {
                     <img alt='bear' loading='lazy' src={PIC1} />
                 </div>
             </div>
-            <div className='line_movement'>
+            <div className='line_movement artist_line'>
 
             </div>
         </div>
