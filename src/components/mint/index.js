@@ -34,11 +34,11 @@ function MintCover() {
                     </div>
                     {
                         close ? <div className='notification_box'>
-                        <p><span className='type'>Error! </span> Email address is already registered.</p>
-                        <span onClick={()=>setClose(false)} className='cut'><GrFormClose/></span>
-                </div> : null
+                            <p><span className='type'>Error! </span> Email address is already registered.</p>
+                            <span onClick={() => setClose(false)} className='cut'><GrFormClose /></span>
+                        </div> : null
                     }
-                    
+
                     <div className="sellector_buttons_wrapper">
                         <button className='plus_minus_button' onClick={() => clickHandler(1, '-')}>
                             <HiMinus color='white' />
@@ -60,9 +60,9 @@ function MintCover() {
                         You can mint up to 3 Majestic Bears per transaction. <br />
                     </p>
                     <button
-                        onClick={()=>setClose(true)}
+                        onClick={() => setClose(true)}
                         className="connect_btn" >
-                        MINT 
+                        MINT
                     </button>
                 </div>
             </div>

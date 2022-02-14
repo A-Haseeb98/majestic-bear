@@ -109,6 +109,7 @@
     flex-direction: column;
     animation-name: fadeInLeft;
     animation-duration: 1.25s;
+    font-style: italic !important;
     }
 .quantity{
     color: #fff;
@@ -143,7 +144,7 @@
 
 .message_box {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 34px;
     color: white;
     text-align: center;
 }
