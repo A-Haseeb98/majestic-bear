@@ -11,7 +11,7 @@ function AppRouter() {
             <Switch>
                 <Route exact path={'/'} component={App} />
                 <Route exact path={'/team'} component={Team} />
-                <Route exact path={'/mint'} component={Mint} />
+                {/* <Route exact path={'/mint'} component={Mint} /> */}
             </Switch>
         </Router>
     )
