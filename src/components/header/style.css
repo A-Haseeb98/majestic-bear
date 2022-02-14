@@ -104,6 +104,7 @@ li a, li a:hover, li a:focus, li a:active {
 .discord_{
     display: block;
     font-size: 28px !important;
+    transform: translateY(-2px);
 }
 .right_container > span{
 
@@ -112,7 +113,6 @@ li a, li a:hover, li a:focus, li a:active {
 
 .logo_container img{
     width: 120px;
-
 }
 
 .drawer_container{
