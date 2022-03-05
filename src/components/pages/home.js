@@ -1,5 +1,6 @@
 import Header from "../header";
 import MintCover from '../mint'
+import Cover from '../cover'
 import Footer from '../footer';
 import FaqSection from '../faq';
 import TeamSection from '../team';
@@ -12,7 +13,7 @@ function App() {
     return (
         <>
             <Header />
-            <MintCover />
+            <Cover />
             <AboutUs />
             <Artist />
             <RoadMap />
